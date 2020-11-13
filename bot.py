@@ -22,7 +22,7 @@ async def start(bot, message):
         "I'm GPlink bot.\n"
         "**Just send me link and get short link**\n\n"
         "__ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ:__\n"
-        "**• [@TM_Moviez](https://t.me/joinchat/AAAAAFIN2ibGFWeYBNj2Xg)**\n"
+        "**• [@TM_Moviez](https://telegram.dog/joinchat/AAAAAFIN2ibGFWeYBNj2Xg)**\n"
         "**• [@Tamil_BiggBoss](https://telegram.dog/joinchat/AAAAAEbnj7Sa0YPARrnXUA)**\n"
         "**• @Plethro_Movies**\n"
         "**• @TM_Group_1**\n")
@@ -32,7 +32,7 @@ async def link_handler(bot, message):
     link = message.matches[0].group(0)
     try:
         short_link = await get_shortlink(link)
-        await message.reply(f'__Generated Links__.....\n\n**{short_link}**\n\n__ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ:\n__**• [@TM_Moviez](https://t.me/joinchat/AAAAAFIN2ibGFWeYBNj2Xg)**\n**• [@Tamil_BiggBoss](https://telegram.dog/joinchat/AAAAAEbnj7Sa0YPARrnXUA)**\n**• @Plethro_Movies**\n**• @TM_Group_1**', quote=True)
+        await message.reply(f'__Generated Links__.....\n\n**{short_link}**\n\n__ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɢʀᴏᴜᴘ:\n__**• [@TM_Moviez](https://telegram.dog/joinchat/AAAAAFIN2ibGFWeYBNj2Xg)**\n**• [@Tamil_BiggBoss](https://telegram.dog/joinchat/AAAAAEbnj7Sa0YPARrnXUA)**\n**• @Plethro_Movies**\n**• @TM_Group_1**', quote=True)
     except Exception as e:
         await message.reply(f'Error: {e}', quote=True)
     
