@@ -5,7 +5,7 @@
         "telegram",
         "gplink"
     ],
-    "website": "https://github.com/TMAdminz/GPLink-Test-Bot",
+    "website": "https://github.com/TMAdminz/GP",
     "repository": "https://github.com/Mahesh0253/GPlink-bot",
     "env": {
         "BOT_TOKEN": {
